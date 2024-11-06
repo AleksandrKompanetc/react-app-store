@@ -59,12 +59,19 @@
 
 .hightlight {
   position: relative;
+  display: inline-block;
 }
 
 .hightlight::before {
   content: '';
   display: block;
   position: absolute;
+  top: -12px;
+  bottom: 0px;
+  left: -40px;
+  right: -160px;
+  background-color: #fff;
+  transform: rotate(-2deg);
 }
 
 
