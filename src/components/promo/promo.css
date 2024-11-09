@@ -12,10 +12,6 @@
   background-color: #F4F6F5;
 }
 
-.promo__text {
-
-}
-
 .promo__title {
   max-width: 480px;
   margin-bottom: 40px;
@@ -57,12 +53,13 @@
   color: #fff;
 }
 
-.hightlight {
+.highlight {
   position: relative;
   display: inline-block;
+  z-index: 100;
 }
 
-.hightlight::before {
+.highlight::before {
   content: '';
   display: block;
   position: absolute;
@@ -73,6 +70,11 @@
   background-color: #fff;
   transform: rotate(-2deg);
 }
+
+/* .highlight--yellow::before {
+  background-color: var(--yellow);
+  right: -140px;
+} */
 
 
 
